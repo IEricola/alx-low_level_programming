@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * prit_numbers - prit from 0 to 9
+ * print_numbers - prit from 0 to 9
  * Return: The numbers from 0 to 9
  */
 
 void print_numbers(void)
-
 {
 	int x;
 
@@ -14,5 +13,5 @@ void print_numbers(void)
 	{
 	_putchar(x + '0');
 	}
-	_putchar('\n');
+	_putchar('\n')
 }
